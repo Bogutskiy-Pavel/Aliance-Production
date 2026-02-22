@@ -17,6 +17,7 @@ body {
 }
 .header {
   min-height: 100vh;
+  padding: 94px;
 }
 
 .header-image {
@@ -41,7 +42,11 @@ body {
   align-items: center;
   color: white;
   height: 94px;
-  position: relative;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  left: 0;
+  top: 0;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
 }
 .header-logo {
