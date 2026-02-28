@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 16px;
+  font-size: 1rem;
 }
 @font-face {
   font-family: "Bebas Neue Regular";
@@ -17,13 +17,13 @@ body {
   display: none;
 }
 .container {
-  max-width: 1440px;
-  padding-left: 12px;
+  max-width: 90rem;
+  padding-left: 0.75rem;
   margin: auto;
 }
 .header {
   min-height: 100vh;
-  padding-top: 94px;
+  padding-top: 5.875rem;
 }
 
 .header-image {
@@ -48,7 +48,7 @@ body {
   display: flex;
   align-items: center;
   color: white;
-  height: 94px;
+  height: 5.875rem;
   position: fixed;
   z-index: 2;
   width: 100%;
@@ -62,7 +62,7 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292d33;
-  height: 74px;
+  height: 4.625rem;
 }
 .navbar-light .header-logo-path {
   fill: #292d23;
@@ -70,19 +70,19 @@ body {
 .header-logo {
   display: flex;
   align-items: center;
-  padding: 0px 50px;
+  padding: 0rem 3.125rem;
   border-right: 0.0625rem solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
 .logo-svg {
-  width: 144px;
-  height: 44px;
+  width: 9rem;
+  height: 2.75rem;
 }
 .header-nav {
   display: flex;
   flex-grow: 1;
   list-style: none;
-  padding: 34px 50px;
+  padding: 2.125rem 3.125rem;
   margin: 0;
 }
 .header-nav-item:not(:last-child) {
@@ -90,7 +90,7 @@ body {
 }
 .header-nav-link {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 160%;
   text-decoration: none;
   color: inherit;
@@ -99,8 +99,8 @@ body {
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  gap: 14px;
-  margin-right: 50px;
+  gap: 0.875rem;
+  margin-right: 3.125rem;
 }
 .phone-icon {
   fill: #5c8ee6;
@@ -110,12 +110,12 @@ body {
 }
 .header-phone-link {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   color: inherit;
 }
 .button {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 160%;
   color: var(--white);
   padding: 25px 60px;
@@ -127,60 +127,60 @@ body {
 .navbar-button {
   flex-shrink: 0;
   height: 100%;
-  padding: 25px 42px;
+  padding: 1.5625rem 2.625rem;
   font-weight: 600;
   font-size: 16px;
   line-height: 160%;
 }
 .seporator {
   background: #5c8ee6;
-  width: 150px;
-  height: 2px;
+  width: 9.375rem;
+  height: 0.125rem;
 }
 .header-content {
-  padding-top: 150px;
+  padding-top: 9.375rem;
   color: white;
 }
 .header-title {
-  max-width: 1080px;
+  max-width: 67.5rem;
   font-family: "Bebas Neue Regular";
   font-weight: 400;
-  font-size: 80px;
+  font-size: 5rem;
   line-height: 120%;
-  margin-top: 19px;
-  margin-bottom: 42px;
-  letter-spacing: 0.1008px;
+  margin-top: 1.1875rem;
+  margin-bottom: 2.625rem;
+  letter-spacing: 0.0063rem;
   word-spacing: -1px;
 }
 .header-text {
-  max-width: 720px;
+  max-width: 45rem;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 160%;
-  margin-bottom: 50px;
-  letter-spacing: 0.1408px;
+  margin-bottom: 3.125rem;
+  letter-spacing: 0.0088rem;
 }
 .header-features {
   display: flex;
   min-height: 168px;
-  margin-top: 100px;
-  width: 1440px;
-  padding: 0px;
+  margin-top: 6.25rem;
+  width: 90rem;
+  padding: 0rem;
   list-style: none;
   color: white;
   position: relative;
 }
 .header-features-item {
-  padding: 30px 50px 0px 50px;
+  padding: 1.875rem 3.125rem 0rem 3.125rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
 .header-features-text {
-  font-size: 16px;
-  max-width: 188px;
+  font-size: 1rem;
+  max-width: 11.75rem;
   line-height: 160%;
   font-weight: 400;
-  padding-right: 18px;
+  padding-right: 1.125rem;
 }
 .header-features-item:not(:last-child) {
   border-right: none;
@@ -188,33 +188,33 @@ body {
 .features-svg {
   display: flex;
   align-items: center;
-  width: 36px;
-  height: 36px;
-  margin-bottom: 21px;
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-bottom: 1.3125rem;
 }
 .section {
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 9.375rem;
+  margin-bottom: 9.375rem;
 }
 .section-title {
   font-family: "Bebas Neue Regular";
-  font-size: 60px;
+  font-size: 3.75rem;
   line-height: 120%;
   color: #292d33;
-  margin-top: 25px;
+  margin-top: 1.5625rem;
 }
 .steps {
   display: flex;
   list-style: none;
   padding: 0;
-  gap: 30px;
+  gap: 1.875rem;
 }
 .steps-item {
-  max-width: 330px;
+  max-width: 20.625rem;
 }
 .steps-num {
   font-family: "Bebas Neue Regular";
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 120%;
   color: #5c8ee6;
   display: flex;
@@ -222,100 +222,100 @@ body {
 }
 .steps-num:after {
   content: "";
-  height: 1px;
+  height: 0.0625rem;
   width: 100%;
   background-color: rgba(235, 235, 240, 1);
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 .steps-title {
   font-weight: 400;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 160%;
   color: #292d33;
-  margin-top: 35px;
-  margin-bottom: 10px;
+  margin-top: 2.1875rem;
+  margin-bottom: 0.625rem;
 }
 .steps-text {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 160%;
   color: #828a99;
-  margin-top: 12px;
-  margin-bottom: 20px;
-  word-spacing: 1px;
-  padding-right: 30px;
+  margin-top: 0.75rem;
+  margin-bottom: 1.25rem;
+  word-spacing: 0.0625rem;
+  padding-right: 1.875rem;
 }
 .steps-link {
   display: flex;
   align-items: center;
   text-decoration: none;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 160%;
   color: #5c8ee6;
-  margin-left: 0px;
-  margin-top: 22px;
-  word-spacing: 2.1008px;
+  margin-left: 0rem;
+  margin-top: 1.375rem;
+  word-spacing: 2.1008rem;
 }
 .steps-link:before {
   content: "";
-  height: 1px;
+  height: 0.0625rem;
   background-color: rgba(235, 235, 240, 1);
-  width: 40px;
-  margin-right: 20px;
+  width: 2.5rem;
+  margin-right: 1.25rem;
 }
-@media (max-width: 106.25rem) {
+@media (max-width: 1700px) {
   html {
     font-size: 0.875rem;
   }
 }
-@media (max-width: 93.75rem) {
+@media (max-width: 1500px) {
   html {
     font-size: 0.8125rem;
   }
   .header-logo {
-    padding: 32px;
+    padding: 2rem;
   }
   .logo-svg {
-    max-width: 96px;
+    max-width: 6rem;
   }
   .header-nav {
-    padding-left: 32px;
+    padding-left: 2rem;
   }
   .header-nav-item:not(:last-child) {
-    margin-right: 16px;
+    margin-right: 1rem;
   }
   .header-phone {
-    margin-right: 32px;
+    margin-right: 2rem;
   }
   .header-image {
     background-position: center;
   }
 }
-@media (max-width: 75rem) {
+@media (max-width: 1200px) {
   html {
     font-size: 0.7813rem;
   }
   .container {
-    width: 1120px;
+    width: 70rem;
   }
   .header-phone {
     display: none;
   }
   .navbar {
-    height: 80px;
+    height: 5rem;
   }
   .navbar-button {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
-@media (max-width: 62rem) {
+@media (max-width: 992px) {
   html {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
   .container {
-    width: 960px;
+    width: 60rem;
   }
   .header-nav {
     display: none;
@@ -330,16 +330,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 25px 15px;
-    border-right: 0.0625rem solid rgba(235, 235, 240, 0.2);
+    padding: 20px 15px;
+    border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
     background-color: #333;
   }
   .mobile-menu-line {
-    height: 0.0625rem;
+    height: 1px;
     background-color: #fff;
     width: 100%;
+    transition: transform 0.4s;
   }
   .mobile-menu-line:nth-child(2) {
     width: 80%;
@@ -363,9 +364,9 @@ body {
     overflow-y: auto;
     z-index: 2;
     background-color: #fff;
-    padding-top: 80px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 5rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
   }
   .mobile-menu.is-open {
     display: block;
@@ -377,7 +378,7 @@ body {
   .mobile-menu-link {
     text-decoration: none;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 160%;
     color: #292d33;
   }
@@ -389,7 +390,7 @@ body {
   .mobile-submenu-link {
     text-decoration: none;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 160%;
     color: #828a99;
   }
@@ -399,7 +400,7 @@ body {
   .mobile-phone {
     display: block;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 160%;
     text-decoration-line: underline;
     color: #292d33;
@@ -418,13 +419,24 @@ body {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 160%;
     color: #292d33;
   }
   .mobile-vk-inst {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     margin-top: 20px;
+  }
+  .close-menu .mobile-menu-line:nth-child(2) {
+    display: none;
+  }
+  .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg);
+    margin-top: 8px;
+  }
+  .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg);
+    margin-bottom: 8px;
   }
 }
